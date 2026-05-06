@@ -1,0 +1,25 @@
+# Secrets — never commit these
+.env
+credentials.json
+token.json
+
+# Vector database (large, re-generated from Drive)
+chroma_db/
+
+# KB registry is local state — optional to commit
+kb_registry.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/credentials.toml
+
+# Logs & temp
+*.log
+install_log.txt
